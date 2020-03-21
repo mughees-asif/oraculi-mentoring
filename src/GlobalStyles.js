@@ -41,6 +41,7 @@ const styles = theme => ({
     },
     ".row": {
       display: "flex",
+      alignItems: "center",
       flexWrap: "wrap",
       marginRight: -theme.spacing(2),
       marginLeft: -theme.spacing(2)
@@ -55,6 +56,7 @@ const styles = theme => ({
       alignItems: "center"
     },
     ".lg-mg-top": {
+      alignItems: "center",
       marginTop: `${theme.spacing(20)}px !important`,
       [theme.breakpoints.down("md")]: {
         marginTop: `${theme.spacing(18)}px !important`

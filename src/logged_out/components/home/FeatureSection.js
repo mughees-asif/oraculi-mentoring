@@ -18,7 +18,7 @@ const features = [
       "Complete academic platform offering one-to-one or classroom study with upto 2 other students.",
     icon: <ComputerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
-    smDelay: "0"
+    smDelay: "200"
   },
   {
     color: "#00897b",
@@ -27,7 +27,7 @@ const features = [
       "Machine Learning and Data Analytics allows to track progress in real-time with suggestions to increase performance.",
     icon: <BarChartIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
-    smDelay: "200"
+    smDelay: "400"
   },
   {
     color: "#0091EA",
@@ -36,7 +36,7 @@ const features = [
       "Every session recorded for re-use and deployed on the cloud for 24/7 accessiblity.",
     icon: <CloudIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
-    smDelay: "0"
+    smDelay: "2000"
   },
   {
     color: "#d50000",
@@ -45,7 +45,7 @@ const features = [
       "Enabled with notes sharing and saving options; downloadable in different formats.",
     icon: <HeadsetMicIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
-    smDelay: "200"
+    smDelay: "400"
   }
 ];
 
@@ -62,6 +62,7 @@ function FeatureSection(props) {
             {features.map(element => (
               <Grid
                 item
+                alignItems="center"
                 xs={12}
                 sm={6}
                 lg={3}
