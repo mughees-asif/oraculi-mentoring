@@ -18,7 +18,7 @@ import ColoredButton from "../../../shared/components/ColoredButton";
 
 const styles = theme => ({
   footerInner: {
-    backgroundColor: "#9ccc65",
+    backgroundColor: "#1e88e5",
     paddingTop: theme.spacing(8),
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(2),
@@ -44,6 +44,7 @@ const styles = theme => ({
   footerLinks: {
     marginTop: theme.spacing(2.5),
     marginBot: theme.spacing(1.5),
+    align: "center",
     color: theme.palette.common.white
   },
   infoIcon: {
@@ -52,7 +53,7 @@ const styles = theme => ({
   },
   socialIcon: {
     fill: theme.palette.common.white,
-    backgroundColor: "#33383b",
+    backgroundColor: "#000000",
     borderRadius: theme.shape.borderRadius,
     "&:hover": {
       backgroundColor: theme.palette.primary.light
@@ -77,7 +78,7 @@ const styles = theme => ({
 const infos = [
    {
      icon: <PhoneIcon />,
-     description: "-------------"
+     description: "+"
    },
   {
     icon: <MailIcon />,
@@ -139,7 +140,7 @@ function Footer(props) {
     <footer className="lg-p-bottom">
       <WaveBorder
         upperColor="#000000"
-        lowerColor= "#9ccc65"
+        lowerColor= "#1e88e5"
         animationNegativeDelay={4}
       />
       <div className={classes.footerInner}>

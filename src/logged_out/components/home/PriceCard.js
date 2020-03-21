@@ -10,7 +10,7 @@ const styles = theme => ({
     paddingLeft: theme.spacing(4),
     paddingRight: theme.spacing(4),
     marginTop: theme.spacing(2),
-    border: `5px solid ${theme.palette.success.dark}`,
+    border: `5px solid #1e88e5`,
     borderRadius: theme.shape.borderRadius * 2
   },
   cardHightlighted: {
@@ -20,7 +20,7 @@ const styles = theme => ({
     paddingRight: theme.spacing(4),
     border: `3px solid ${theme.palette.primary.dark}`,
     borderRadius: theme.shape.borderRadius * 2,
-    backgroundColor: theme.palette.success.main,
+    backgroundColor: "#1e88e5",
     [theme.breakpoints.down("xs")]: {
       marginTop: theme.spacing(2)
     }
