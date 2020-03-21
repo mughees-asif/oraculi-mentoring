@@ -38,13 +38,13 @@ class Main extends PureComponent {
   selectHome = () => {
     smoothScrollTop();
     document.title =
-      "Tutify | Revolutionising Education";
+      "Oraculi | Revolutionising Education";
     this.setState({ selectedTab: "Home" });
   };
 
   selectBlog = () => {
     smoothScrollTop();
-    document.title = "Tutify";
+    document.title = "Oraculi | Revolutionising Education";
     this.setState({ selectedTab: "Blog" });
   };
 
