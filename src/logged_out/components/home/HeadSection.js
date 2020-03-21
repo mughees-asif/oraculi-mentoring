@@ -125,7 +125,7 @@ function HeadSection(props) {
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                           style={{color: "white"}}
                         >
-                          Tutify 
+                          Oraculi 
                         </Typography>
                       </Box>
                       <div>

@@ -82,15 +82,7 @@ function NavBar(props) {
               display="inline"
               color="primary"
             >
-              Tut
-            </Typography>
-            <Typography
-              variant="h4"
-              className={classes.brandText}
-              display="inline"
-              color="secondary"
-            >
-              ify
+              Oraculi
             </Typography>
           </div>
           <div>
