@@ -1,9 +1,9 @@
 {
-  "name": "tutify-education",
+  "name": "Oraculi Mentoring",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://mughees-asif.github.io/tutify-education",
-  "description": "Tutify",
+  "homepage": "http://mughees-asif.github.io/oraculi-mentoring",
+  "description": "Oraculi Mentoring | Revolutionising Education",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
     "@material-ui/core": "^4.9.5",
