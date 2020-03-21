@@ -78,7 +78,7 @@ const styles = theme => ({
 const infos = [
    {
      icon: <PhoneIcon />,
-     description: "+"
+     description: "****************"
    },
   {
     icon: <MailIcon />,
@@ -149,7 +149,7 @@ function Footer(props) {
             <form>
               <Box display="flex" flexDirection="column">
                 <ColoredButton
-                  color={theme.palette.common.black}
+                  color= "#FFFFFF"
                   variant="outlined"
                   type="submit"
                   href="mailto:tutify.tuition@gmail.com"
@@ -190,7 +190,7 @@ function Footer(props) {
             </Grid>
           </Hidden>
           <Grid item xs={12} md={6} lg={4}>
-            <Typography variant="h6" paragraph className="text-black">
+            <Typography variant="h6" style={{color: "white"}} paragraph className="text-black">
               About the Company
             </Typography>
             <Typography style={{color: "black"}} paragraph>

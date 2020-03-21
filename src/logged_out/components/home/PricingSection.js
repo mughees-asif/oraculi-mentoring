@@ -48,7 +48,7 @@ const styles = theme => ({
 function PricingSection(props) {
   const { width, classes } = props;
   return (
-    <div className="lg-p-top" style={{ backgroundColor: "#000000" }}>
+    <div name="pricing" className="lg-p-top" style={{ backgroundColor: "#000000" }}>
       <Typography variant="h3" align="center" className="lg-mg-bottom" style={{ color: "white" }}>
         Pricing
       </Typography>
@@ -93,7 +93,7 @@ function PricingSection(props) {
               pricing={
                 <span>
                   £29.99
-                  <Typography display="inline" color="primary"> / month</Typography>
+                  <Typography display="inline" color="#FFFFFF"> / month</Typography>
                 </span>
               }
               features={[<Typography display="blcok" style={{ color: "white" }}> Starter included </Typography>, 

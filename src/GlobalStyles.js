@@ -51,7 +51,8 @@ const styles = theme => ({
       paddingLeft: theme.spacing(2),
       marginRight: "auto",
       marginLeft: "auto",
-      maxWidth: 1370
+      maxWidth: 1370,
+      alignItems: "center"
     },
     ".lg-mg-top": {
       marginTop: `${theme.spacing(20)}px !important`,
