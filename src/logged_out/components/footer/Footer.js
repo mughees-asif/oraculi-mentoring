@@ -135,7 +135,7 @@ const socialIcons = [
 ];
 
 function Footer(props) {
-  const { classes, theme, width } = props;
+  const { classes, width } = props;
   return (
     <footer className="lg-p-bottom">
       <WaveBorder
